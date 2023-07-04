@@ -39,7 +39,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--bright-strawberry);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -61,7 +61,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--light-strawberry);
 
     &:hover,
     &:focus {
@@ -100,12 +100,12 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--navy);
+      background-color: var(--bright-strawberry);
       mix-blend-mode: screen;
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--bright-strawberry);
       top: 14px;
       left: 14px;
       z-index: -1;
@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'React',
+    'Node.js',
+    'Express',
+    'Cypress',
+    'Jest',
+    'Docker',
+    'SQL/NoSQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +144,31 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Emilia and I enjoy creating developer tools &amp; building things
+              that live on the internet. My interest in software engineering started back in 2008
+              when I decided to try editing custom MySpace themes — turns out that experience taught
+              me a lot about HTML &amp; CSS!
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Throughout college, I co-managed an organic vegetable farm near the Berkshire
+              Mountains in New York. In 2017, I graduated from college with a B.Tech in Plant
+              Science and completed an internship at Cornell University, where I worked on
+              industrial hemp research. I went on to manage industrial hemp production throughout
+              New York &amp; Pennsylvania, and started a small I'm grateful for my career as a
+              farmer and small business owner, as it taught me countless lessons. When I started my
+              transition to software engineering in 2021, I had 7 years of management experience
+              under my belt, and while I enjoyed the work, the pandemic was a dark time Fast-forward
+              to today, after spending 7+ years managing agricultural production of organic
+              vegetables and industrial hemp throughout New York & Pennsylvania, I've had the
+              privilage of pivoting to software engineering
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Fast-forward to today, and I’ve had the privilege of working on a number of open
+              source products, including dangoDB{' '}
+              <a href="https://www.dangodb.land">a MongoDB ODM</a> for{' '}
+              <a href="https://www.deno.land">Deno</a>.{' '}
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

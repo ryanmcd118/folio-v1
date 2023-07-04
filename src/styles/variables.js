@@ -16,6 +16,20 @@ const variables = css`
     --green-tint: rgba(100, 255, 218, 0.1);
     --pink: #f57dff;
     --blue: #57cbff;
+    --cream: #fbf7f7;
+    --light-cream: #faf7f7;
+    --lightest-strawberry: #f5dfe3;
+    --light-strawberry: #eda8b4;
+    --bright-strawberry: #f43f5e;
+    --dull-strawberry: #efdfe2;
+    --light-brown: #b3aba2;
+    --lighter-brown: #b2aca5;
+    --lightest-brown: #e6e4e3;
+    --dark-brown: #57534e;
+    --light-grape: #4b45b6;
+    --light-blue: #9cdaf2;
+    --dark-blue: #4bb3db;
+    --soft-green: #81bf81;
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;
