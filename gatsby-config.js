@@ -70,12 +70,6 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-interactive-gifs`,
-            options: {
-              dest: `${__dirname}/content/featured/mixETL`,
-            },
-          },
-          {
             // https://www.gatsbyjs.org/packages/gatsby-remark-images
             resolve: 'gatsby-remark-images',
             options: {
