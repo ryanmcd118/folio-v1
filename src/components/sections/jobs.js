@@ -95,7 +95,7 @@ const StyledTabButton = styled.button`
 
   &:hover,
   &:focus {
-    background-color: var(--lightest-strawberry);
+    background-color: var(--soft-green-tint);
   }
 `;
 

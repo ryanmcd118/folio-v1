@@ -56,7 +56,7 @@ const StyledNav = styled.nav`
   ${({ theme }) => theme.mixins.flexBetween};
   position: relative;
   width: 100%;
-  color: var(--soft-green);
+  color: var(--dark-blue);
   font-family: var(--font-mono);
   counter-reset: item 0;
   z-index: 12;

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
 
@@ -62,12 +61,12 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Emilia Yoffie.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = <h3 className="big-heading">I build dev tools & web apps.</h3>;
   const four = (
     <>
       <p>
         I’m a full-stack software engineer passionate about building effective solutions for both
-        users & developers. Currently, I’m part of the{' '}
+        users and developers. Currently, I’m part of the{' '}
         <a
           href="https://www.linkedin.com/company/cs-engineering-tech-team/mycompany/"
           target="_blank"
@@ -85,8 +84,8 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
+    <a href="/resume.pdf" className="email-link">
+      Check out my Resume
     </a>
   );
 

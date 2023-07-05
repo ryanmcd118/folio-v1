@@ -92,7 +92,7 @@ const StyledProject = styled.li`
       display: flex;
       align-items: center;
       margin-right: -10px;
-      color: var(--dark-blue);
+      color: var(--soft-green);
 
       a {
         ${({ theme }) => theme.mixins.flexCenter};
@@ -152,6 +152,7 @@ const StyledProject = styled.li`
     padding: 0;
     margin: 20px 0 0 0;
     list-style: none;
+    color: var(--dark-blue);
 
     li {
       font-family: var(--font-mono);

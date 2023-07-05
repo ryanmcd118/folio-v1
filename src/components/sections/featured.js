@@ -132,7 +132,7 @@ const StyledProject = styled.li`
     }
 
     @media (max-width: 768px) {
-      color: var(--white);
+      color: var(--bright-strawberry);
 
       a {
         position: static;
@@ -176,7 +176,7 @@ const StyledProject = styled.li`
     }
 
     strong {
-      color: var(--white);
+      color: var(--bright-strawberry);
       font-weight: normal;
     }
   }
@@ -192,7 +192,7 @@ const StyledProject = styled.li`
 
     li {
       margin: 0 20px 5px 0;
-      color: var(--dark-brown);
+      color: var(--dark-blue);
       font-family: var(--font-mono);
       font-size: var(--fz-xs);
       white-space: nowrap;
@@ -233,11 +233,6 @@ const StyledProject = styled.li`
         height: 20px;
       }
     }
-
-    .cta {
-      ${({ theme }) => theme.mixins.smallButton};
-      margin: 10px;
-    }
   }
 
   .project-image {
@@ -256,7 +251,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--soft-green);
+      background-color: var(--lightest-blue);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -305,7 +300,7 @@ const StyledProject = styled.li`
 
 const Featured = () => {
   const data = useStaticQuery(graphql`
-    {
+    query {
       featured: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/content/featured/" } }
         sort: { fields: [frontmatter___date], order: ASC }
@@ -322,7 +317,7 @@ const Featured = () => {
               tech
               github
               external
-              cta
+              medium
             }
             html
           }
@@ -355,7 +350,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta } = frontmatter;
+            const { external, title, tech, github, cover, medium } = frontmatter;
             const image = getImage(cover);
 
             return (
@@ -382,9 +377,9 @@ const Featured = () => {
                     )}
 
                     <div className="project-links">
-                      {cta && (
-                        <a href={cta} aria-label="Course Link" className="cta">
-                          Learn More
+                      {medium && (
+                        <a href={medium} aria-label="Medium">
+                          <Icon name="Medium" />
                         </a>
                       )}
                       {github && (
@@ -392,7 +387,7 @@ const Featured = () => {
                           <Icon name="GitHub" />
                         </a>
                       )}
-                      {external && !cta && (
+                      {external && !medium && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
                         </a>

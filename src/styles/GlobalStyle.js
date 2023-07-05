@@ -21,8 +21,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    background-color: var(--white);
-    color: var(--green);
+    background-color: var(--cream);
+    color: var(--soft-green);
   }
 
   /* Provide basic, default focus styles.*/
@@ -213,7 +213,7 @@ const GlobalStyle = createGlobalStyle`
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: var(--white);
+      background-color: var(--bright-strawberry);
 
       @media (max-width: 1080px) {
         width: 200px;
@@ -304,7 +304,7 @@ const GlobalStyle = createGlobalStyle`
 
     & > code {
       background-color: var(--green);
-      color: var(--white);
+      color: var(--bright-straberry);
       font-size: var(--fz-sm);
       border-radius: var(--border-radius);
       padding: 0.3em 0.5em;
@@ -346,7 +346,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   hr {
-    background-color: var(--white);
+    background-color: var(--bright-strawberry);
     height: 1px;
     border-width: 0px;
     border-style: initial;

@@ -100,7 +100,7 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--bright-strawberry);
+      background-color: var(--lightest-blue);
       mix-blend-mode: screen;
     }
 
@@ -127,9 +127,9 @@ const About = () => {
 
   const skills = [
     'JavaScript (ES6+)',
+    'TypeScript',
+    'Node.js/Express',
     'React',
-    'Node.js',
-    'Express',
     'Cypress',
     'Jest',
     'Docker',
@@ -147,28 +147,28 @@ const About = () => {
               Hello! My name is Emilia and I enjoy creating developer tools &amp; building things
               that live on the internet. My interest in software engineering started back in 2008
               when I decided to try editing custom MySpace themes — turns out that experience taught
-              me a lot about HTML &amp; CSS!
+              me a lot about HTML &amp; CSS! However, much of my professional career is in
+              agriculture. Here's a bit of my story:
             </p>
 
             <p>
-              Throughout college, I co-managed an organic vegetable farm near the Berkshire
-              Mountains in New York. In 2017, I graduated from college with a B.Tech in Plant
-              Science and completed an internship at Cornell University, where I worked on
-              industrial hemp research. I went on to manage industrial hemp production throughout
-              New York &amp; Pennsylvania, and started a small I'm grateful for my career as a
-              farmer and small business owner, as it taught me countless lessons. When I started my
-              transition to software engineering in 2021, I had 7 years of management experience
-              under my belt, and while I enjoyed the work, the pandemic was a dark time Fast-forward
-              to today, after spending 7+ years managing agricultural production of organic
-              vegetables and industrial hemp throughout New York & Pennsylvania, I've had the
-              privilage of pivoting to software engineering
+              Throughout college, I worked on organic vegetable farm and absolutely fell in love
+              with agriculture. After graduating with a Bachelor of Technology in Plant Science back
+              in 2017, I worked at <a href="https://cornell.edu/">Cornell University</a> doing
+              industrial hemp research. Before long, I went on to start several small business and
+              managed industrial hemp & CBD oil production throughout New York &amp; Pennsylvania.
+            </p>
+            <p>
+              By the time I started my transition to software engineering in 2021, I had 7+ years of
+              management experience under my belt. While I value my former life as a farmer and
+              entrepreneur, my journey into learning JavaScript & web development during the
+              pandemic provided me with great repreive during an otherwise dark period of my life.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working on a number of open
-              source products, including dangoDB{' '}
-              <a href="https://www.dangodb.land">a MongoDB ODM</a> for{' '}
-              <a href="https://www.deno.land">Deno</a>.{' '}
+              Fast-forward to today, I've completely pivoted professionally to software engineering,
+              and I've had the privilege of working in enterprise codebases as well as a number of
+              open-source products.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

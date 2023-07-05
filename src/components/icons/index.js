@@ -11,3 +11,4 @@ export { default as IconLinkedin } from './linkedin';
 export { default as IconLogo } from './logo';
 export { default as IconPlayStore } from './playstore';
 export { default as IconStar } from './star';
+export { default as IconMedium } from './medium';

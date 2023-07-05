@@ -1,11 +1,11 @@
 ---
 date: '2'
 title: 'mixETL'
-cover: './halcyon.png'
+cover: './mixETL.png'
 github: 'https://github.com/CodeSeeker-io/mixETL'
 tech:
-  - VS Code
   - Node
+  - TypeScript
   - Mixpanel API
   - Google Sheets API
 ---

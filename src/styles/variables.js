@@ -21,15 +21,21 @@ const variables = css`
     --lightest-strawberry: #f5dfe3;
     --light-strawberry: #eda8b4;
     --bright-strawberry: #f43f5e;
-    --dull-strawberry: #efdfe2;
+    --dull-strawberry: #F0EBEC;
+    --dull-strawberry-tint: rgba(239, 223, 226, .8)
     --light-brown: #b3aba2;
     --lighter-brown: #b2aca5;
     --lightest-brown: #e6e4e3;
     --dark-brown: #57534e;
     --light-grape: #4b45b6;
     --light-blue: #9cdaf2;
+    --light-blue-tint: rgba(156, 218, 242, 0.2);
+    --lightest-blue: #CEE9FF;
+    --lightest-blue-tint: rgba(206, 233, 255, 0.5);
     --dark-blue: #4bb3db;
     --soft-green: #81bf81;
+    --soft-green-tint: rgba(129, 191, 129, 0.1);
+    --light-green: #F0F6F0;
 
     --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
       sans-serif;

@@ -1,12 +1,11 @@
 ---
 date: '2017-11-01'
-title: 'Apple Music Facebook Messenger Integration'
-github: ''
-external: 'https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming'
+title: 'Bookworm'
+github: 'https://github.com/panda-whale-csny32/bookworm'
+external: ''
 tech:
-  - Ember
-  - JS
-  - SCSS
+  - React Testing Library
+  - Supertest
 company: 'Apple'
 showInProjects: true
 ---
