@@ -1,13 +1,13 @@
 ---
-date: '2016-12-01'
+date: '2021-07-06'
 title: 'Personal Website V1'
 github: 'https://github.com/emiliayoffie/v4'
 external: ''
 tech:
-  - HTML
+  - React
   - Gatsby
-  - SCSS
-  - JS
+  - GraphQL
+  - Netlify
 showInProjects: true
 ---
 

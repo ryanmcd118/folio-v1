@@ -1,14 +1,13 @@
 ---
-date: '2020-03-27'
+date: '2022-04-27'
 title: 'Ensquire: 5e Character Sheet'
 github: 'https://github.com/Red-Lipped-Aboleth/Ensquire'
 external: ''
 tech:
-  - React
-  - Redux Hooks
-  - PostgreSQL
-  - Sass
+  - React & Redux
   - webpack
+  - PostgreSQL
+
 company: 'Open Source'
 showInProjects: true
 ---

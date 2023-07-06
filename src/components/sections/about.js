@@ -157,23 +157,24 @@ const About = () => {
             </p>
 
             <p>
-              Throughout college, I worked on organic vegetable farm and absolutely fell in love
-              with agriculture. After graduating with a Bachelor of Technology in Plant Science back
-              in 2017, I worked at <a href="https://cornell.edu/">Cornell University</a> doing
-              industrial hemp research. Before long, I went on to start several small business and
-              managed industrial hemp & CBD oil production throughout New York &amp; Pennsylvania.
+              Throughout college, I worked on organic vegetable farms, where I fell in love with
+              farming. After graduating with a Bachelor of Technology in Plant Science in 2017, I
+              worked at <a href="https://cornell.edu/">Cornell University</a> conducting industrial
+              hemp research. Before long, I went on to start several small businesses and managed
+              industrial hemp & CBD oil production throughout NY &amp; PA.
             </p>
             <p>
-              By the time I started my transition to software engineering in 2021, I had 7+ years of
-              management experience under my belt. While I value my former life as a farmer and
-              entrepreneur, my journey into learning JavaScript & web development during the
-              pandemic provided me with great repreive during an otherwise dark period of my life.
+              By the time I started my career transition in 2021, I had nearly 7 years of management
+              experience under my belt. While I value my former life as a farmer &amp; entrepreneur,
+              my journey into learning JavaScript during the pandemic provided me with great
+              repreive during an otherwise dark time.
             </p>
 
             <p>
-              Fast-forward to today, I've completely pivoted professionally to software engineering,
-              and I've had the privilege of working in enterprise codebases as well as a number of
-              open-source products.
+              Fast-forward to today, and I've had the pleasure of working on a number of open-source
+              products &amp; building out cool new features in enterprise codebases, as well as the
+              privilege of mentoring junior developers, giving public workshops, and contributing to
+              web development courses for aspiring engineers.
             </p>
 
             <p id="my-tech">Here are a few technologies I’ve been working with recently:</p>

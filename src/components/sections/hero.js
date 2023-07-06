@@ -65,7 +65,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a full-stack software engineer passionate about building effective solutions for both
+        I’m a full-stack software engineer passionate about building meaningful solutions for both
         users and developers. Currently, I’m part of the{' '}
         <a
           href="https://www.linkedin.com/company/cs-engineering-tech-team/mycompany/"

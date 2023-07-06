@@ -164,7 +164,7 @@ const GlobalStyle = createGlobalStyle`
   h4,
   h5,
   h6 {
-    margin: 0 0 10px 0;
+    margin: 0 0 px 0;
     font-weight: 600;
     color: var(--light-blue);
     line-height: 1.1;

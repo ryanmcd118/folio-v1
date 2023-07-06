@@ -11,4 +11,4 @@ tech:
   - MongoDB
 ---
 
-dangoDB is a light-weight MongoDB Object Document Mapper (ODM) library built for the Deno runtime. It provides the core functionality and familiar look and feel of established Node-based libraries. With dangoDB, developers can construct schemas and models, and they can enforce strict type-casting and schema validation to structure their databases. The query functions available from the deno_mongo driver can all be accessed with ease.
+dangoDB is a light-weight [MongoDB](https://www.mongodb.com/) ODM library built for [Deno](https://deno.land), developed under tech accelerator [OSLabs](https://opensourcelabs.io).

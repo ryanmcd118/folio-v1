@@ -66,8 +66,8 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      width: 42px;
-      height: 42px;
+      width: 60px;
+      height: 60px;
       position: relative;
       z-index: 1;
 

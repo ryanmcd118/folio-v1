@@ -1,12 +1,13 @@
 ---
-date: '2020-01-10'
-title: 'Task Management App'
+date: '2022-03-22'
+title: 'Meraki'
 github: ''
 external: ''
 tech:
   - React
   - HTML & CSS
-  - Firebase
+  - Node
+  - Express
 company: ''
 showInProjects: true
 ---
