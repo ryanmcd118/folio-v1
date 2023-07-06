@@ -1,13 +1,42 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
-import { Head, Loader, Nav, Social, Email, Footer } from '@components';
+import { Head, Loader, Nav, Social, Email, Footer, Cursor } from '@components';
 import { GlobalStyle, theme } from '@styles';
 
 const StyledContent = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+`;
+const CursorContainer = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+
+  #cursor-dot,
+  #cursor-dot-outline {
+    position: fixed;
+    top: calc(var(--mouse-y) * 1px);
+    left: calc(var(--mouse-x) * 1px);
+    transform: translate(-50%, -50%);
+  }
+
+  #cursor-dot {
+    width: var(--cursor-size);
+    height: var(--cursor-size);
+    background-color: rgba(var(--color-cursor), 1);
+  }
+
+  #cursor-dot-outline {
+    width: var(--cursor-outline-size);
+    height: var(--cursor-outline-size);
+    background-color: rgba(var(--color-cursor), var(--cursor-outline-shade));
+  }
 `;
 
 const Layout = ({ children, location }) => {
@@ -62,6 +91,9 @@ const Layout = ({ children, location }) => {
             <Loader finishLoading={() => setIsLoading(false)} />
           ) : (
             <StyledContent>
+              <CursorContainer>
+                <Cursor />
+              </CursorContainer>
               <Nav isHome={isHome} />
               <Social isHome={isHome} />
               <Email isHome={isHome} />

@@ -68,6 +68,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    cursor: none;
     margin: 0;
     width: 100%;
     min-height: 100%;
