@@ -19,6 +19,10 @@ const StyledAboutSection = styled.section`
   }
 `;
 const StyledText = styled.div`
+  #my-tech {
+    color: var(--bright-strawberry);
+  }
+
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -29,6 +33,7 @@ const StyledText = styled.div`
     list-style: none;
 
     li {
+      color: var(--soft-green);
       position: relative;
       margin-bottom: 10px;
       padding-left: 20px;
@@ -171,7 +176,7 @@ const About = () => {
               open-source products.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p id="my-tech">Here are a few technologies I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">

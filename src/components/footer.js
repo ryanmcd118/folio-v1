@@ -39,6 +39,17 @@ const StyledSocialLinks = styled.div`
   }
 `;
 
+const StyledCredit = styled.div`
+  color: var(--soft-green);
+  font-family: var(--font-mono);
+  font-size: var(--fz-xxs);
+  line-height: 1;
+
+  #Credit {
+    padding: 0.3rem;
+  }
+`;
+
 const Footer = () => (
   <StyledFooter>
     <StyledSocialLinks>
@@ -53,6 +64,15 @@ const Footer = () => (
           ))}
       </ul>
     </StyledSocialLinks>
+
+    <StyledCredit tabindex="-1">
+      <div id="Credit">Copyright © 2023 Emilia Yoffie.</div>
+      <div>
+        {' '}
+        <a href="https://github.com/emiliayoffie/v4/">Built with Gatsby, React, & Netlify. </a>{' '}
+        Inspired by <a href="https://brittanychiang.com">Brittany Chiang</a>
+      </div>
+    </StyledCredit>
   </StyledFooter>
 );
 
