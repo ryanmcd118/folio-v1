@@ -69,7 +69,9 @@ const Footer = () => (
       <div id="Credit">Copyright © 2023 Emilia Yoffie.</div>
       <div>
         {' '}
-        <a href="https://github.com/emiliayoffie/v4/">Built with Gatsby, React, & Netlify. </a>{' '}
+        <a href="https://github.com/emiliayoffie/v4/">
+          Built with Gatsby & Deployed on Netlify.{' '}
+        </a>{' '}
         Inspired by <a href="https://brittanychiang.com">Brittany Chiang</a>
       </div>
     </StyledCredit>
