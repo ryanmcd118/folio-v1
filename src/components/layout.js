@@ -91,9 +91,11 @@ const Layout = ({ children, location }) => {
             <Loader finishLoading={() => setIsLoading(false)} />
           ) : (
             <StyledContent>
-              <CursorContainer>
-                <Cursor />
-              </CursorContainer>
+              {typeof document !== 'undefined' && (
+                <CursorContainer>
+                  <Cursor />
+                </CursorContainer>
+              )}
               <Nav isHome={isHome} />
               <Social isHome={isHome} />
               <Email isHome={isHome} />
