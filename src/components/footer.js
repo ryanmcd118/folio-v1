@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Icon } from '@components/icons';
 import { socialMedia } from '@config';
+import ScrollToTop from './scrollToTop';
 
 const StyledFooter = styled.footer`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -64,6 +65,8 @@ const Footer = () => (
           ))}
       </ul>
     </StyledSocialLinks>
+
+    <ScrollToTop className="scrollToTop" />
 
     <StyledCredit tabindex="-1">
       <div id="Credit">Copyright © 2023 Emilia Yoffie.</div>
