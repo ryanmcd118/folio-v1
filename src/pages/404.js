@@ -33,12 +33,12 @@ const NotFoundPage = ({ location }) => {
 
   useEffect(() => {
     if (prefersReducedMotion) {
-      return;
+      setIsMounted(true); // Skip animation
+    } else {
+      const timeout = setTimeout(() => setIsMounted(true), navDelay);
+      return () => clearTimeout(timeout);
     }
-
-    const timeout = setTimeout(() => setIsMounted(true), navDelay);
-    return () => clearTimeout(timeout);
-  }, []);
+  }, [prefersReducedMotion]);
 
   const content = (
     <StyledMainContainer className="fillHeight">
@@ -48,23 +48,16 @@ const NotFoundPage = ({ location }) => {
     </StyledMainContainer>
   );
 
-  return (
+  return isMounted ? (
     <Layout location={location}>
       <Helmet title="Page Not Found" />
-
-      {prefersReducedMotion ? (
-        <>{content}</>
-      ) : (
-        <TransitionGroup component={null}>
-          {isMounted && (
-            <CSSTransition timeout={500} classNames="fadeup">
-              {content}
-            </CSSTransition>
-          )}
-        </TransitionGroup>
-      )}
+      <TransitionGroup component={null}>
+        <CSSTransition timeout={500} classNames="fadeup">
+          {content}
+        </CSSTransition>
+      </TransitionGroup>
     </Layout>
-  );
+  ) : null;
 };
 
 NotFoundPage.propTypes = {

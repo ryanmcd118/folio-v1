@@ -8,6 +8,7 @@ const StyledContent = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
 `;
 const CursorContainer = styled.div`
   position: fixed;
@@ -17,26 +18,6 @@ const CursorContainer = styled.div`
   height: 100vh;
   pointer-events: none;
   z-index: 9999;
-
-  #cursor-dot,
-  #cursor-dot-outline {
-    position: fixed;
-    top: calc(var(--mouse-y) * 1px);
-    left: calc(var(--mouse-x) * 1px);
-    transform: translate(-50%, -50%);
-  }
-
-  #cursor-dot {
-    width: var(--cursor-size);
-    height: var(--cursor-size);
-    background-color: rgba(var(--color-cursor), 1);
-  }
-
-  #cursor-dot-outline {
-    width: var(--cursor-outline-size);
-    height: var(--cursor-outline-size);
-    background-color: rgba(var(--color-cursor), var(--cursor-outline-shade));
-  }
 `;
 
 const Layout = ({ children, location }) => {
@@ -90,21 +71,16 @@ const Layout = ({ children, location }) => {
           {isLoading && isHome ? (
             <Loader finishLoading={() => setIsLoading(false)} />
           ) : (
-            <StyledContent>
-              {typeof document !== 'undefined' && (
-                <CursorContainer>
-                  <Cursor />
-                </CursorContainer>
-              )}
-              <Nav isHome={isHome} />
-              <Social isHome={isHome} />
-              <Email isHome={isHome} />
-
-              <div id="content">
+            <>
+              <CursorContainer>{typeof document !== 'undefined' && <Cursor />}</CursorContainer>
+              <StyledContent>
                 {children}
+                <Nav isHome={isHome} />
+                <Social isHome={isHome} />
+                <Email isHome={isHome} />
                 <Footer />
-              </div>
-            </StyledContent>
+              </StyledContent>
+            </>
           )}
         </ThemeProvider>
       </div>
