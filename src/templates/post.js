@@ -96,11 +96,12 @@ export default PostTemplate;
 PostTemplate.propTypes = {
   data: PropTypes.object,
   location: PropTypes.object,
+  slug: PropTypes.object,
 };
 
 export const pageQuery = graphql`
-  query ($path: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $path } }) {
+  query ($slug: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
