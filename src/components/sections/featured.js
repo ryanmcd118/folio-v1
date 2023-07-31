@@ -286,7 +286,7 @@ const StyledProject = styled.li`
     .img {
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
-      filter: blur(1px); contrast(1) brightness(90%);
+      filter: blur(2px); contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
         object-fit: cover;
