@@ -23,6 +23,12 @@ const CursorContainer = styled.div`
 const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
   const [isLoading, setIsLoading] = useState(isHome);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const isMobileDevice = /Mobi|Android/i.test(navigator.userAgent);
+    setIsMobile(isMobileDevice);
+  }, []);
 
   // Sets target="_blank" rel="noopener noreferrer" on external links
   const handleExternalLinks = () => {
@@ -72,7 +78,9 @@ const Layout = ({ children, location }) => {
             <Loader finishLoading={() => setIsLoading(false)} />
           ) : (
             <>
-              <CursorContainer>{typeof document !== 'undefined' && <Cursor />}</CursorContainer>
+              {!isMobile && ( // Only render the Cursor component on desktop
+                <CursorContainer>{typeof document !== 'undefined' && <Cursor />}</CursorContainer>
+              )}
               <StyledContent>
                 {children}
                 <Nav isHome={isHome} />
