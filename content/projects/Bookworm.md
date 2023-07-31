@@ -2,7 +2,6 @@
 date: '2022-11-01'
 title: 'Bookworm'
 github: 'https://github.com/panda-whale-csny32/bookworm'
-external: ''
 tech:
   - React Testing Library
   - Supertest

@@ -1,8 +1,6 @@
 ---
 date: '2022-03-22'
 title: 'Meraki'
-github: ''
-external: ''
 tech:
   - React
   - HTML & CSS

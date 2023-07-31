@@ -2,7 +2,6 @@
 date: '2019-11-12'
 title: 'SweetCode'
 github: 'https://github.com/SweetCodeNY32/SweetCode'
-external: ''
 tech:
   - React
   - Material UI
