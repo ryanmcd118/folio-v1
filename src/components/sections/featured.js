@@ -158,7 +158,7 @@ const StyledProject = styled.li`
     padding: 25px;
     border-radius: var(--border-radius);
     background-color: var(--dull-strawberry);
-    color: var(--dark-brown);
+    color: var(-brown);
     font-size: var(--fz-lg);
 
     @media (max-width: 768px) {
@@ -278,7 +278,7 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--dark-green);
+        background-color: var(--light-brown);
         mix-blend-mode: screen;
       }
     }
