@@ -1,6 +1,6 @@
 ---
 date: '2023-07-03'
-title: 'Software Engineer'
+title: 'Software Engineer, Consultant'
 company: 'CS Engineering'
 location: 'New York, NY'
 range: 'June 2022 - Present'
