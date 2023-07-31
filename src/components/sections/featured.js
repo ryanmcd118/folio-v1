@@ -245,13 +245,13 @@ const StyledProject = styled.li`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
-      opacity: 0.25;
+      opacity: 0.1;
     }
 
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--lightest-blue);
+      background-color: var(--lighter-brown);
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -278,7 +278,7 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
+        background-color: var(--dark-green);
         mix-blend-mode: screen;
       }
     }
@@ -286,13 +286,13 @@ const StyledProject = styled.li`
     .img {
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      filter: blur(1px); contrast(1) brightness(90%);
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(50%);
+        filter: blur(4px) contrast(1) brightness(50%);
       }
     }
   }
