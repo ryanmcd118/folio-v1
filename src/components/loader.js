@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 import anime from 'animejs';
 import styled from 'styled-components';
-import { IconLoader } from '@components/icons';
 
 const StyledLoader = styled.div`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -14,7 +13,7 @@ const StyledLoader = styled.div`
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--dark-navy);
+  background-color: var(--cream);
   z-index: 99;
 
   .logo-wrapper {
@@ -84,10 +83,6 @@ const Loader = ({ finishLoading }) => {
   return (
     <StyledLoader className="loader" isMounted={isMounted}>
       <Helmet bodyAttributes={{ class: `hidden` }} />
-
-      <div className="logo-wrapper">
-        <IconLoader />
-      </div>
     </StyledLoader>
   );
 };

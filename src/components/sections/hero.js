@@ -19,7 +19,7 @@ const StyledHeroSection = styled.section`
 
   h1 {
     margin: 0 0 30px 4px;
-    color: var(--green);
+    color: var(--bright-strawberry);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
     font-weight: 400;
@@ -31,7 +31,7 @@ const StyledHeroSection = styled.section`
 
   h3 {
     margin-top: 5px;
-    color: var(--slate);
+    color: var(--bright-strawberry);
     line-height: 0.9;
   }
 
@@ -60,28 +60,32 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Emilia Yoffie.</h2>;
+  const three = <h3 className="big-heading">I build dev tools & web apps.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        I’m a full-stack software engineer passionate about building meaningful solutions for both
+        users and developers. Currently, I’m part of the{' '}
+        <a
+          href="https://www.linkedin.com/company/cs-engineering-tech-team/mycompany/"
+          target="_blank"
+          rel="noreferrer">
+          CS Engineering
+        </a>{' '}
+        team at{' '}
+        <a href="https://codesmith.io/" target="_blank" rel="noreferrer">
+          {' '}
+          Codesmith{' '}
         </a>
-        .
+        , where I mentor junior developers, in addition to engineering & improving major features of
+        the legacy enterprise codebase.
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
+    <a href="/resume.pdf" className="email-link">
+      Check out my Resume
     </a>
   );
 

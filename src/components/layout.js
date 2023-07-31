@@ -1,13 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled, { ThemeProvider } from 'styled-components';
-import { Head, Loader, Nav, Social, Email, Footer } from '@components';
+import { Head, Loader, Nav, Social, Email, Footer, Cursor } from '@components';
 import { GlobalStyle, theme } from '@styles';
 
 const StyledContent = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
+`;
+const CursorContainer = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
 `;
 
 const Layout = ({ children, location }) => {
@@ -61,16 +71,16 @@ const Layout = ({ children, location }) => {
           {isLoading && isHome ? (
             <Loader finishLoading={() => setIsLoading(false)} />
           ) : (
-            <StyledContent>
-              <Nav isHome={isHome} />
-              <Social isHome={isHome} />
-              <Email isHome={isHome} />
-
-              <div id="content">
+            <>
+              <CursorContainer>{typeof document !== 'undefined' && <Cursor />}</CursorContainer>
+              <StyledContent>
                 {children}
+                <Nav isHome={isHome} />
+                <Social isHome={isHome} />
+                <Email isHome={isHome} />
                 <Footer />
-              </div>
-            </StyledContent>
+              </StyledContent>
+            </>
           )}
         </ThemeProvider>
       </div>

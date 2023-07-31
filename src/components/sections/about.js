@@ -19,6 +19,10 @@ const StyledAboutSection = styled.section`
   }
 `;
 const StyledText = styled.div`
+  #my-tech {
+    color: var(--bright-strawberry);
+  }
+
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
@@ -29,6 +33,7 @@ const StyledText = styled.div`
     list-style: none;
 
     li {
+      color: var(--soft-green);
       position: relative;
       margin-bottom: 10px;
       padding-left: 20px;
@@ -39,7 +44,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--bright-strawberry);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -61,7 +66,7 @@ const StyledPic = styled.div`
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--light-strawberry);
 
     &:hover,
     &:focus {
@@ -100,12 +105,12 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--navy);
+      background-color: var(--lightest-blue);
       mix-blend-mode: screen;
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--bright-strawberry);
       top: 14px;
       left: 14px;
       z-index: -1;
@@ -125,7 +130,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'Node.js/Express',
+    'React',
+    'Cypress',
+    'Jest',
+    'Docker',
+    'SQL/NoSQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +149,35 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Emilia and I enjoy creating developer tools &amp; building things
+              that live on the internet. My interest in software engineering started back in 2008
+              when I decided to try editing custom MySpace themes — turns out that experience taught
+              me a lot about HTML &amp; CSS! However, much of my professional career is in
+              agriculture. Here's a bit of my story:
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Throughout college, I worked on organic vegetable farms, where I fell in love with
+              farming. After graduating with a Bachelor of Technology in Plant Science in 2017, I
+              worked at <a href="https://cornell.edu/">Cornell University</a> conducting industrial
+              hemp research. Before long, I went on to start several small businesses and managed
+              industrial hemp & CBD oil production throughout NY &amp; PA.
+            </p>
+            <p>
+              By the time I started my career transition in 2021, I had nearly 7 years of management
+              experience under my belt. While I value my former life as a farmer &amp; entrepreneur,
+              my journey into learning JavaScript during the pandemic provided me with great
+              repreive during an otherwise dark time.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Fast-forward to today, and I've had the pleasure of working on a number of open-source
+              products &amp; building out cool new features in enterprise codebases, as well as the
+              privilege of mentoring junior developers, giving public workshops, and contributing to
+              web development courses for aspiring engineers.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p id="my-tech">Here are a few technologies I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">

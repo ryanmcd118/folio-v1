@@ -29,7 +29,7 @@ const StyledPostContent = styled.div`
   p {
     margin: 1em 0;
     line-height: 1.5;
-    color: var(--light-slate);
+    color: var(--pink);
   }
 
   a {
@@ -37,7 +37,7 @@ const StyledPostContent = styled.div`
   }
 
   code {
-    background-color: var(--lightest-navy);
+    background-color: var(--green);
     color: var(--lightest-slate);
     border-radius: var(--border-radius);
     font-size: var(--fz-sm);
@@ -96,11 +96,12 @@ export default PostTemplate;
 PostTemplate.propTypes = {
   data: PropTypes.object,
   location: PropTypes.object,
+  slug: PropTypes.object,
 };
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $path } }) {
+  query ($slug: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
