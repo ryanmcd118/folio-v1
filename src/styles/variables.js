@@ -33,6 +33,7 @@ const variables = css`
     --lightest-blue: #cee9ff;
     --lightest-blue-tint: rgba(206, 233, 255, 0.5);
     --dark-blue: #4bb3db;
+    --darker-blue: #5175a4;
     --soft-green: #81bf81;
     --soft-green-tint: rgba(129, 191, 129, 0.1);
     --light-green: #f0f6f0;
