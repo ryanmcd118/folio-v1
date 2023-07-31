@@ -9,20 +9,18 @@ import { useStaticQuery, graphql } from 'gatsby';
 const Head = ({ title, description, image }) => {
   const { pathname } = useLocation();
 
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            defaultTitle: title
-            defaultDescription: description
-            siteUrl
-            defaultImage: image
-          }
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          defaultTitle: title
+          defaultDescription: description
+          siteUrl
+          defaultImage: image
         }
       }
-    `,
-  );
+    }
+  `);
 
   const { defaultTitle, defaultDescription, siteUrl, defaultImage } = site.siteMetadata;
 
@@ -46,7 +44,7 @@ const Head = ({ title, description, image }) => {
       <meta property="og:url" content={seo.url} />
       <meta property="og:type" content="website" />
 
-      <meta name="google-site-verification" content="DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk" />
+      {/* <meta name="google-site-verification" content="" /> */}
     </Helmet>
   );
 };

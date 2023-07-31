@@ -5,7 +5,7 @@ module.exports = {
     title: 'Emilia Yoffie',
     description:
       'Emilia Yoffie is a software engineer who specializes in building full-stack applications.',
-    siteUrl: 'https://emiliayoffie.com', // No trailing slash allowed!
+    siteUrl: 'https://emiliayoffie.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
@@ -148,11 +148,11 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: 'UA-',
+    //   },
+    // },
   ],
 };
