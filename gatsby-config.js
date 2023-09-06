@@ -148,11 +148,14 @@ module.exports = {
         ],
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: 'UA-',
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ['G-3151SCKP6N'],
+        pluginConfig: {
+          head: false,
+        },
+      },
+    },
   ],
 };
