@@ -10,15 +10,6 @@ const StyledContent = styled.div`
   min-height: 100vh;
   position: relative;
 `;
-const CursorContainer = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  pointer-events: none;
-  z-index: 9999;
-`;
 
 const Layout = ({ children, location }) => {
   const isHome = location.pathname === '/';
@@ -72,7 +63,7 @@ const Layout = ({ children, location }) => {
             <Loader finishLoading={() => setIsLoading(false)} />
           ) : (
             <>
-              <CursorContainer>{typeof document !== 'undefined' && <Cursor />}</CursorContainer>
+              <Cursor />
               <StyledContent>
                 {children}
                 <Nav isHome={isHome} />
