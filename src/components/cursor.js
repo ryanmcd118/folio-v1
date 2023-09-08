@@ -50,7 +50,7 @@ const Cursor = ({
   const [isActiveClickable, setIsActiveClickable] = useState(false);
   const endX = useRef(0);
   const endY = useRef(0);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // Moved inside the component
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   useEffect(() => {
     const handleResize = () => {
