@@ -17,14 +17,8 @@ function useEventListener(eventName, handler, element = document) {
   }, [handler]);
 
   React.useEffect(() => {
-    if (window.innerWidth <= 768) {
-      return;
-    }
     const isSupported = element && element.addEventListener;
-
-    if (!isSupported) {
-      return;
-    }
+    if (!isSupported) {return;}
 
     const eventListener = event => savedHandler.current(event);
 
@@ -55,24 +49,10 @@ const Cursor = ({
   const endX = useRef(0);
   const endY = useRef(0);
 
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-
-  React.useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
   const onMouseMove = useCallback(({ clientX, clientY }) => {
     setCoords({ x: clientX, y: clientY });
-    cursorInnerRef.current.style.top = `${clientY}px`;
-    cursorInnerRef.current.style.left = `${clientX}px`;
+    cursorInnerRef.current.style.top = `${clientY  }px`;
+    cursorInnerRef.current.style.left = `${clientX  }px`;
     endX.current = clientX;
     endY.current = clientY;
   }, []);
@@ -81,8 +61,8 @@ const Cursor = ({
     if (previousTimeRef.current !== undefined) {
       coords.x += (endX.current - coords.x) / 8;
       coords.y += (endY.current - coords.y) / 8;
-      cursorOuterRef.current.style.top = `${coords.y}px`;
-      cursorOuterRef.current.style.left = `${coords.x}px`;
+      cursorOuterRef.current.style.top = `${coords.y  }px`;
+      cursorOuterRef.current.style.left = `${coords.x  }px`;
     }
     previousTimeRef.current = time;
     requestRef.current = requestAnimationFrame(animateOuterCursor);
@@ -191,45 +171,33 @@ const Cursor = ({
     };
   }, [isActive]);
 
-  const styles = isMobile
-    ? {
-      cursor: {
-        display: 'none',
-      },
-      cursorInner: {
-        display: 'none',
-      },
-      cursorOuter: {
-        display: 'none',
-      },
-    }
-    : {
-      cursor: {
-        zIndex: 999,
-        position: 'fixed',
-        opacity: 1,
-        pointerEvents: 'none',
-        transition: 'opacity 0.15s ease-in-out, transform 0.15s ease-in-out',
-      },
-      cursorInner: {
-        position: 'fixed',
-        borderRadius: '50%',
-        width: innerSize,
-        height: innerSize,
-        pointerEvents: 'none',
-        backgroundColor: `rgba(${color}, 1)`,
-        transition: 'opacity 0.15s ease-in-out, transform 0.25s ease-in-out',
-      },
-      cursorOuter: {
-        position: 'fixed',
-        borderRadius: '50%',
-        pointerEvents: 'none',
-        width: outerSize,
-        height: outerSize,
-        backgroundColor: `rgba(${color}, ${outerAlpha})`,
-        transition: 'opacity 0.15s ease-in-out, transform 0.15s ease-in-out',
-      },
-    };
+  const styles = {
+    cursor: {
+      zIndex: 999,
+      position: 'fixed',
+      opacity: 1,
+      pointerEvents: 'none',
+      transition: 'opacity 0.15s ease-in-out, transform 0.15s ease-in-out',
+    },
+    cursorInner: {
+      position: 'fixed',
+      borderRadius: '50%',
+      width: innerSize,
+      height: innerSize,
+      pointerEvents: 'none',
+      backgroundColor: `rgba(${color}, 1)`,
+      transition: 'opacity 0.15s ease-in-out, transform 0.25s ease-in-out',
+    },
+    cursorOuter: {
+      position: 'fixed',
+      borderRadius: '50%',
+      pointerEvents: 'none',
+      width: outerSize,
+      height: outerSize,
+      backgroundColor: `rgba(${color}, ${outerAlpha})`,
+      transition: 'opacity 0.15s ease-in-out, transform 0.15s ease-in-out',
+    },
+  };
 
   return (
     <>
