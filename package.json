@@ -63,19 +63,19 @@
     "styled-components": "^6.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.8",
-    "@babel/eslint-parser": "^7.22.7",
+    "@babel/core": "7.x.x",
+    "@babel/eslint-parser": "7.x.x",
     "@babel/preset-react": "^7.22.5",
-    "@upstatement/eslint-config": "^1.0.0",
-    "@upstatement/prettier-config": "^1.0.0",
+    "@upstatement/eslint-config": "^2.0.0",
+    "@upstatement/prettier-config": "^1.1.0",
     "babel-preset-gatsby": "^3.11.0",
-    "eslint": "^8.44.0",
-    "eslint-config-prettier": "^8.8.0",
+    "eslint": "8.x.x",
+    "eslint-config-prettier": "8.x.x",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "gatsby-remark-code-titles": "^1.1.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
-    "prettier": "^3.0.0"
+    "prettier": "2.x.x"
   }
 }
