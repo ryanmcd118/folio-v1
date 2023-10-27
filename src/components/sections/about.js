@@ -153,10 +153,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
+              {' '}
               Hello! My name is Emilia and I enjoy creating technology that can make a difference.
               My interest in software engineering started back in 2008 when I decided to try
-              building custom MySpace themes! However, much of my professional career is in
-              agriculture. Here's a bit of my story:
+              building custom MySpace themes! From there, much of my early professional career was
+              in agriculture. Here's a bit of my story:
             </p>
 
             <p>
@@ -169,18 +170,17 @@ const About = () => {
 
             <p>
               During this time, I was able to grow my technical, analytical, and leadership skills,
-              and by the time I started my career transition in 2020, I had nearly 6 years of
-              management experience under my belt. While I value my time as a farmer &amp;
-              entrepreneur, I needed more stability. To my pleasant surprise, my career pivot into
-              the tech industry felt very natural. Turns out farming and software engineering are a
-              lot alike - they're both about problem-solving!
+              and by the time I started my software engineering career in 2020, I had nearly six
+              years of management experience under my belt. My career pivot into the tech industry
+              felt very natural -- turns out farming and software engineering are a lot alike:
+              they're both about collaborating to solve problems and grow things organically!
             </p>
 
             <p>
-              Fast-forward to today, and I've had the pleasure of working on a number of open-source
-              products &amp; building out exciting new features in enterprise codebases, as well as
-              the privilege of mentoring junior developers, giving public workshops, and
-              contributing to web development courses for aspiring engineers.
+              Fast-forward to today, and I’ve had the pleasure of building out cool new features in
+              several enterprise codebases &amp; working on a number of open-source products, as
+              well as the privilege of mentoring junior developers, giving public technical
+              workshops, and contributing to web development courses for aspiring engineers.
             </p>
 
             <p id="my-tech">Here are a few technologies I’ve been working with recently:</p>
