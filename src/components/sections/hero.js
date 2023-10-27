@@ -61,12 +61,12 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Emilia Yoffie.</h2>;
-  const three = <h3 className="big-heading">I build dev tools & web apps.</h3>;
+  const three = <h3 className="big-heading">I build unique & accessible digital experiences.</h3>;
   const four = (
     <>
       <p>
-        I’m a full-stack software engineer passionate about building meaningful solutions for both
-        users and developers. Currently, I’m part of the{' '}
+        I’m a full-stack software engineer passionate about the growth mindset, collaboration, and
+        solving complex problems. Currently, I’m part of the{' '}
         <a
           href="https://www.linkedin.com/company/cs-engineering-tech-team/mycompany/"
           target="_blank"

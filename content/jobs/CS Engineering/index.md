@@ -1,14 +1,24 @@
 ---
 date: '2023-07-03'
-title: 'Software Engineer, Consultant'
+title: 'Software Engineer & Consultant'
 company: 'CS Engineering'
 location: 'New York, NY'
 range: 'June 2022 - Present'
 url: 'https://www.codesmith.io/'
 ---
 
-- Maintain internal tools and public site with 165k+ annual users, employing Docker containers to facilitate consistent development environments, streamline workflows, and enhance code integration and deployment processes.
-- Implement test driven development (TDD) using Jest for testing middleware logic & Cypress for end-to-end tests, ensuring intended functionality and preventing unnecessary side effects
-- Carried out comprehensive code reviews and technical training in JavaScript, focusing on Node/Express, React, Redux, NoSQL/SQL databases, and TDD to foster technical growth and promote engineering best practices
-- Conducted technical interviews for prospective engineers to evaluate knowledge of JavaScript, to assess analytical problem solving, technical communication, and debugging skills, and to gauge overall company cultural fit
-- Mentored engineering teams through the complete lifecycle of full stack open-source products, facilitating the use of Agile/Scrum methodology to guarantee proper workflow, team dynamic compatibility, and effective product launch
+- Maintained ed-tech learning platform with 170k+ users, internal tooling, and public site,
+  employing Docker containers to facilitate consistent development environments, streamline
+  workflows, and enhance code integration and deployment processes.
+- Overhauled central Events Management Dashboard in React, moving from class-based
+  JavaScript to functional TypeScript in order to promote type-safe development and create a
+  fluid experience for end users to manage remote and in-person events.
+- Implemented TDD (test driven development) by utilizing Jest’s assertion and mock testing
+  library to write unit tests for Express controllers in the CI/CD pipeline, ensuring intended
+  functionality and preventing unintended side effects.
+- Carried out comprehensive knowledge transfers, in both written documentation and informal
+  Lunch & Learn sessions, focusing on the shift-left mentality of developing holistic testing
+  suites, increasing quality engineering and deployment confidence.
+- Constructed JavaScript challenges for Frontend Masters’ _UI Hard Parts_ online course, guiding participants
+  in gaining a comprehensive understanding of UI development principles such as DOM
+  manipulation, data binding, the virtual DOM, and hooks.

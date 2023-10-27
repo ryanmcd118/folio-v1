@@ -133,12 +133,16 @@ const About = () => {
   const skills = [
     'JavaScript (ES6+)',
     'TypeScript',
+    'HTML/CSS',
     'Node.js/Express',
+    'Deno',
     'React',
     'Cypress',
     'Jest',
     'Docker',
+    'GitHub Actions',
     'SQL/NoSQL',
+    'OAuth 2.0',
   ];
 
   return (
@@ -149,32 +153,34 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Emilia and I enjoy creating developer tools &amp; building things
-              that live on the internet. My interest in software engineering started back in 2008
-              when I decided to try editing custom MySpace themes — turns out that experience taught
-              me a lot about HTML &amp; CSS! However, much of my professional career is in
-              agriculture. Here's a bit of my story:
+              {' '}
+              Hello! My name is Emilia and I enjoy creating technology that can make a difference.
+              My interest in software engineering started back in 2008 when I decided to try
+              building custom MySpace themes! From there, much of my early professional career was
+              in agriculture. Here's a bit of my story:
             </p>
 
             <p>
               Throughout college, I worked on organic vegetable farms, where I fell in love with
               farming. After graduating with a Bachelor of Technology in Plant Science in 2017, I
               worked at <a href="https://cornell.edu/">Cornell University</a> conducting industrial
-              hemp research. Before long, I went on to start several small businesses and managed
-              industrial hemp & CBD oil production throughout NY &amp; PA.
-            </p>
-            <p>
-              By the time I started my career transition in 2021, I had nearly 7 years of management
-              experience under my belt. While I value my former life as a farmer &amp; entrepreneur,
-              my journey into learning JavaScript during the pandemic provided me with great
-              repreive during an otherwise dark time.
+              hemp industrial hemp research. Before long, I went on to start several small
+              businesses and managed industrial hemp and CBD oil production throughout NY &amp; PA.
             </p>
 
             <p>
-              Fast-forward to today, and I've had the pleasure of working on a number of open-source
-              products &amp; building out cool new features in enterprise codebases, as well as the
-              privilege of mentoring junior developers, giving public workshops, and contributing to
-              web development courses for aspiring engineers.
+              During this time, I was able to grow my technical, analytical, and leadership skills,
+              and by the time I started my software engineering career in 2020, I had nearly six
+              years of management experience under my belt. My career pivot into the tech industry
+              felt very natural -- turns out farming and software engineering are a lot alike:
+              they're both about collaborating to solve problems and grow things organically!
+            </p>
+
+            <p>
+              Fast-forward to today, and I’ve had the pleasure of building out cool new features in
+              several enterprise codebases &amp; working on a number of open-source products, as
+              well as the privilege of mentoring junior developers, giving public technical
+              workshops, and contributing to web development courses for aspiring engineers.
             </p>
 
             <p id="my-tech">Here are a few technologies I’ve been working with recently:</p>
