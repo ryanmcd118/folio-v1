@@ -78,8 +78,8 @@ const Hero = () => {
           {' '}
           Codesmith{' '}
         </a>
-        , where I mentor junior developers, in addition to engineering & improving major features of
-        the legacy enterprise codebase.
+        , where I engineer &amp; improve major features of the legacy enterprise codebase, in
+        addition to mentoring junior engineers.
       </p>
     </>
   );
