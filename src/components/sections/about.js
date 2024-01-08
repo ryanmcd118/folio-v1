@@ -137,6 +137,8 @@ const About = () => {
     'Node.js/Express',
     'Deno',
     'React',
+    'Redux',
+    'Remix',
     'Cypress',
     'Jest',
     'Docker',
@@ -154,33 +156,35 @@ const About = () => {
           <div>
             <p>
               {' '}
-              Hello! My name is Emilia and I enjoy creating technology that can make a difference.
-              My interest in software engineering started back in 2008 when I decided to try
-              building custom MySpace themes! From there, much of my early professional career was
-              in agriculture. Here's a bit of my story:
+              Hello! My name is Emilia and I enjoy building things that make a difference. My
+              interest in software engineering started back in 2008 when I learned to build custom
+              MySpace themes using HTML & CSS. From there, however, much of my early professional
+              career was in agriculture. Here's a bit of my story:
             </p>
 
             <p>
               Throughout college, I worked on organic vegetable farms, where I fell in love with
               farming. After graduating with a Bachelor of Technology in Plant Science in 2017, I
               worked at <a href="https://cornell.edu/">Cornell University</a> conducting industrial
-              hemp industrial hemp research. Before long, I went on to start several small
-              businesses and managed industrial hemp and CBD oil production throughout NY &amp; PA.
+              hemp research. Before long, I went on to start several small businesses and managed
+              industrial hemp and CBD oil production throughout NY &amp; PA.
             </p>
 
             <p>
               During this time, I was able to grow my technical, analytical, and leadership skills,
-              and by the time I started my software engineering career in 2020, I had nearly six
-              years of management experience under my belt. My career pivot into the tech industry
-              felt very natural -- turns out farming and software engineering are a lot alike:
-              they're both about collaborating to solve problems and grow things organically!
+              and by the time I started to transition to software engineering in 2020, I had nearly
+              six years of management experience under my belt. My career pivot into the tech
+              industry felt very natural - turns out farming and software engineering are a lot
+              alike: they're both about collaborating to solve problems and growing things
+              organically!
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the pleasure of building out cool new features in
               several enterprise codebases &amp; working on a number of open-source products, as
               well as the privilege of mentoring junior developers, giving public technical
-              workshops, and contributing to web development courses for aspiring engineers.
+              workshops and Lunch &amp; Learns (KTs), and contributing to web development courses
+              for aspiring engineers.
             </p>
 
             <p id="my-tech">Here are a few technologies I’ve been working with recently:</p>
