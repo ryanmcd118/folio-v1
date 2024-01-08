@@ -7,7 +7,7 @@ range: 'June 2022 - Present'
 url: 'https://www.codesmith.io/'
 ---
 
-- Maintained ed-tech learning platform with 200k+ users, internal tooling, and public site,
+- Maintained ed tech learning platform with 200k+ users, internal tooling, and public site,
   employing Docker containers to facilitate consistent development environments, streamline
   workflows, and enhance code integration and deployment processes
 - Overhauled events management dashboard in React with targeted UI improvements, such as intuitive navigation and responsive design, to create a more fluid experience for end users to manage remote and in-person events
