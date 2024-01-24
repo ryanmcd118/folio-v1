@@ -131,7 +131,7 @@ const About = () => {
   }, []);
 
   const skills = [
-    'JavaScript (ES6+)',
+    'JavaScript',
     'TypeScript',
     'HTML/CSS',
     'Node.js/Express',

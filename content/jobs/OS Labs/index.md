@@ -3,7 +3,7 @@ date: '2023-07-03'
 title: 'Software Engineer'
 company: 'OS Labs'
 location: 'Remote'
-range: 'April 2022 - July 2022'
+range: 'April 2022 - June 2022'
 # url: 'https://dangodb.land/'
 ---
 
