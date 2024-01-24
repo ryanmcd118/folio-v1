@@ -69,7 +69,7 @@ const Footer = () => (
     <ScrollToTop className="scrollToTop" />
 
     <StyledCredit tabindex="-1">
-      <div id="Credit">Copyright © 2023 Emilia Yoffie.</div>
+      <div id="Credit">Copyright © 2024 Emilia Yoffie.</div>
       <div>
         {' '}
         <a href="https://github.com/emiliayoffie/v4/">Built with Gatsby. </a> Inspired by{' '}

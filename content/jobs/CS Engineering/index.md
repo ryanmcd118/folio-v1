@@ -2,7 +2,7 @@
 date: '2023-07-03'
 title: 'Software Engineer & Consultant'
 company: 'CS Engineering'
-location: 'New York, NY'
+location: 'Remote'
 range: 'June 2022 - Present'
 url: 'https://www.codesmith.io/'
 ---
