@@ -2,7 +2,7 @@
 date: '2023-07-02'
 title: 'Partner & Manager'
 company: 'Berkshire Hemp'
-location: 'Osceola, PA'
+location: 'Canaan, NY'
 range: 'April 2018 - April 2022'
 url: ''
 ---
