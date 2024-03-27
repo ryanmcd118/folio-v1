@@ -131,14 +131,12 @@ const About = () => {
   }, []);
 
   const skills = [
-    'JavaScript',
-    'TypeScript',
+    'JavaScript/TypeScript',
     'HTML/CSS',
     'Node.js/Express',
     'Deno',
     'React',
     'Redux',
-    'Remix',
     'Cypress',
     'Jest',
     'Docker',
