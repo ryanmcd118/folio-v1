@@ -6,7 +6,7 @@ tech:
   - React
   - Gatsby
   - GraphQL
-  - Netlify
+  - Vercel
 showInProjects: true
 ---
 
