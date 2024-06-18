@@ -134,7 +134,7 @@ const About = () => {
     'JavaScript/TypeScript',
     'HTML/CSS',
     'Node.js/Express',
-    'Deno',
+    'GraphQL',
     'React',
     'Redux',
     'Cypress',
@@ -154,10 +154,10 @@ const About = () => {
           <div>
             <p>
               {' '}
-              Hello! My name is Emilia and I enjoy building things that make a difference. My
-              interest in software engineering started back in 2008 when I learned to build custom
-              MySpace themes using HTML & CSS. From there, however, much of my early professional
-              career was in agriculture. Here's a bit of my story:
+              Hi! My name is Ryan and I enjoy building things that make a difference. My interest in
+              software engineering started back in 2008 when I learned to build custom MySpace
+              themes using HTML & CSS. From there, however, much of my early professional career was
+              in agriculture. Here's a bit of my story:
             </p>
 
             <p>

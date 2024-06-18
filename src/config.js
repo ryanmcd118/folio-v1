@@ -1,14 +1,14 @@
 module.exports = {
-  email: 'eyoffie.dev@gmail.com',
+  email: 'rp.mcdan@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/emiliayoffie',
+      url: 'https://github.com/ryanmcd118',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/emiliayoffie',
+      url: 'https://www.linkedin.com/in/ryanpmcdaniel',
     },
   ],
 

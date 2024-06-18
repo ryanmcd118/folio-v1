@@ -2,10 +2,10 @@
   "name": "v1",
   "description": "Personal Website V1",
   "version": "1.0.0",
-  "author": "Emilia Yoffie <eyoffie.dev@gmail.com>",
+  "author": "Ryan McDaniel <rp.mcdan@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/emiliayoffie/v4"
+    "url": "https://github.com/ryanmcd118/folio-v1"
   },
   "keywords": [
     "gatsby"

@@ -2,10 +2,10 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Emilia Yoffie',
+    title: 'Ryan McDaniel',
     description:
-      'Emilia Yoffie is a software engineer who specializes in building full-stack applications.',
-    siteUrl: 'https://emiliayoffie.dev', // No trailing slash allowed!
+      'Ryan McDaniel is a software engineer who specializes in building full-stack applications.',
+    siteUrl: 'https://www.ryanmcdaniel.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Emilia Yoffie',
-        short_name: 'Emilia Yoffie',
+        name: 'Ryan McDaniel',
+        short_name: 'Ryan McDaniel',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
