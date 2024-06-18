@@ -21,7 +21,8 @@ const variables = css`
     --dark-blue: #4bb3db;
     --soft-green: #81bf81;
     --soft-green-tint: rgba(129, 191, 129, 0.1);
-    --nice-blue: rgb(37, 150, 190);
+
+    --
 
     --color-cursor: 220, 90, 90;
     --cursor-outline-shade: 0.3;
