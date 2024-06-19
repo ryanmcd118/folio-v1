@@ -65,8 +65,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a full-stack software engineer passionate about the growth mindset, collaboration, and
-        solving complex problems. Currently, I’m part of the{' '}
+        I’m a full-stack software engineer passionate about collaborating with others to build
+        resilent solutions to difficult problems. Currently, I’m part of the{' '}
         <a
           href="https://www.linkedin.com/company/cs-engineering-tech-team/mycompany/"
           target="_blank"
@@ -78,8 +78,9 @@ const Hero = () => {
           {' '}
           Codesmith{' '}
         </a>
-        , where I engineer & improve major features of the legacy enterprise codebase, in addition
-        to mentoring junior developers.
+        , where I lead a team of engineers in building & maintaining a variety of products and
+        tools. I also lead a variety of courses and workshops covering modern techs and engineering
+        best practices.
       </p>
     </>
   );

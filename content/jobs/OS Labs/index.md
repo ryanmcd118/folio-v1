@@ -4,7 +4,7 @@ title: 'Software Engineer'
 company: 'OS Labs'
 location: 'Remote'
 range: 'February 2021 - August 2021'
-# url: 'https://dangodb.land/'
+url: 'https://www.opensourcelabs.io/'
 ---
 
 - Engineered an algorithm to automate the generation of comprehensive GraphQL schemas from relational database inputs, facilitating the developer transition from a traditional RESTful architecture to GraphQL’s efficient single-endpoint design.
