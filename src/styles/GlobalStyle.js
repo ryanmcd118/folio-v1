@@ -27,7 +27,7 @@ const GlobalStyle = createGlobalStyle`
 
   /* Provide basic, default focus styles.*/
   :focus {
-    outline: 2px dashed var(--bright-strawberry);
+    outline: 2px dashed var(--primary-orange);
     outline-offset: 3px;
   }
 
@@ -46,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
     focus.
   */
   :focus-visible {
-    outline: 2px dashed var(--bright-strawberry);
+    outline: 2px dashed var(--primary-orange);
     outline-offset: 3px;
   }
 
@@ -62,7 +62,7 @@ const GlobalStyle = createGlobalStyle`
     background: var(--cream);
   }
   ::-webkit-scrollbar-thumb {
-    background-color: var(--light-blue);
+    background-color: var(--secondary-green);
     border: 3px solid var(--cream);
     border-radius: 10px;
   }
@@ -166,7 +166,7 @@ const GlobalStyle = createGlobalStyle`
   h6 {
     margin: 0 0 px 0;
     font-weight: 600;
-    color: var(--light-blue);
+    color: var(--secondary-green);
     line-height: 1.1;
   }
 
@@ -195,7 +195,7 @@ const GlobalStyle = createGlobalStyle`
       counter-increment: section;
       content: '0' counter(section) '.';
       margin-right: 10px;
-      color: var(--bright-strawberry);
+      color: var(--primary-orange);
       font-family: var(--font-mono);
       font-size: clamp(var(--fz-md), 3vw, var(--fz-xl));
       font-weight: 400;
@@ -214,7 +214,7 @@ const GlobalStyle = createGlobalStyle`
       width: 300px;
       height: 1px;
       margin-left: 20px;
-      background-color: var(--bright-strawberry);
+      background-color: var(--primary-orange);
 
       @media (max-width: 1080px) {
         width: 200px;
@@ -262,7 +262,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      color: var(--bright-strawberry);
+      color: var(--primary-orange);
     }
 
     &.inline-link {
@@ -326,14 +326,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: var(--bright-strawberry);
+          color: var(--primary-orange);
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: var(--bright-strawberry);
+    border-left-color: var(--primary-orange);
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;
@@ -347,7 +347,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   hr {
-    background-color: var(--bright-strawberry);
+    background-color: var(--primary-orange);
     height: 1px;
     border-width: 0px;
     border-style: initial;
@@ -373,7 +373,7 @@ const GlobalStyle = createGlobalStyle`
 
     &:hover,
     &:focus {
-      background-color: var(--bright-strawberry);
+      background-color: var(--primary-orange);
       color: var(--cream);
       top: 0;
       left: 0;
@@ -387,18 +387,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #logo {
-    color: var(--bright-strawberry);
+    color: var(--primary-orange);
   }
 
   .overline {
-    color: var(--bright-strawberry);
+    color: var(--primary-orange);
     font-family: var(--font-mono);
     font-size: var(--fz-md);
     font-weight: 400;
   }
 
   .subtitle {
-    color: var(--bright-strawberry);
+    color: var(--primary-orange);
     margin: 0 0 20px 0;
     font-size: var(--fz-md);
     font-family: var(--font-mono);
@@ -421,7 +421,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    color: var(--bright-strawberry);
+    color: var(--primary-orange);
 
     .arrow {
       display: block;

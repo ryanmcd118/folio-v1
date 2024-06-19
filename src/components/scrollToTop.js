@@ -36,7 +36,7 @@ const StyledScrollToTopContainer = styled.div`
     }
 
     &:hover svg {
-      color: var(--bright-strawberry);
+      color: var(--primary-orange);
     }
 
     span {

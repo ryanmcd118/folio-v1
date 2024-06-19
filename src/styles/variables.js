@@ -11,18 +11,19 @@ const variables = css`
     --cream: #fbf7f7;
     --light-cream: #faf7f7;
     --light-strawberry: #eda8b4;
-    --bright-strawberry: #f43f5e;
     --dull-strawberry: #f0ebec;
     --light-brown: #b3aba2;
     --lighter-brown: #b2aca5;
     --dark-brown: #57534e;
-    --light-blue: #9cdaf2;
-    --lightest-blue: #cee9ff;
     --dark-blue: #4bb3db;
     --soft-green: #81bf81;
     --soft-green-tint: rgba(129, 191, 129, 0.1);
 
-    --
+    --primary-orange: #fa824c;
+    --secondary-green: #629677;
+    --secondary-light-green: #b4cfc0;
+    --tertiary-purple: #330036;
+    --dark-gray: #424242;
 
     --color-cursor: 220, 90, 90;
     --cursor-outline-shade: 0.3;

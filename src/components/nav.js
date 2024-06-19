@@ -66,10 +66,11 @@ const StyledNav = styled.nav`
 
   .logo {
     ${({ theme }) => theme.mixins.flexCenter};
+    margin-top: 20px;
 
     a {
-      width: 60px;
-      height: 60px;
+      width: 180px;
+      height: 180px;
       position: relative;
       z-index: 1;
 

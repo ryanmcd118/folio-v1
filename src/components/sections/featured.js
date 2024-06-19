@@ -117,14 +117,14 @@ const StyledProject = styled.li`
 
   .project-overline {
     margin: 10px 0;
-    color: var(--bright-strawberry);
+    color: var(--primary-orange);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     font-weight: 400;
   }
 
   .project-title {
-    color: var(--soft-green);
+    color: var(--tertiary-purple);
     font-size: clamp(24px, 5vw, 28px);
 
     @media (min-width: 768px) {
@@ -132,7 +132,7 @@ const StyledProject = styled.li`
     }
 
     @media (max-width: 768px) {
-      color: var(--bright-strawberry);
+      color: var(--primary-orange);
 
       a {
         position: static;
@@ -176,7 +176,7 @@ const StyledProject = styled.li`
     }
 
     strong {
-      color: var(--bright-strawberry);
+      color: var(--primary-orange);
       font-weight: normal;
     }
   }

@@ -20,7 +20,7 @@ const StyledAboutSection = styled.section`
 `;
 const StyledText = styled.div`
   #my-tech {
-    color: var(--bright-strawberry);
+    color: var(--primary-orange);
   }
 
   ul.skills-list {
@@ -44,7 +44,7 @@ const StyledText = styled.div`
         content: '▹';
         position: absolute;
         left: 0;
-        color: var(--bright-strawberry);
+        color: var(--primary-orange);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -105,12 +105,12 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--lightest-blue);
+      background-color: var(--secondary-light-green);
       mix-blend-mode: screen;
     }
 
     &:after {
-      border: 2px solid var(--bright-strawberry);
+      border: 2px solid var(--primary-orange);
       top: 14px;
       left: 14px;
       z-index: -1;
