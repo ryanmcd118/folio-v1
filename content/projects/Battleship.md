@@ -9,7 +9,7 @@ tech:
   - Vite
   - Jest
 company: ''
-showInProjects: true
+showInProjects: false
 ---
 
 A simplified version of the classic Battleship game.

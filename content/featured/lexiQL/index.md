@@ -9,6 +9,7 @@ tech:
   - GraphQL
   - PostgreSQL
   - React
+  - CodeMirror
 ---
 
 lexiQL is a [GraphQL](https://graphql.org/) migration aid and relational database visualizer, developed under tech accelerator [OSLabs](https://opensourcelabs.io).

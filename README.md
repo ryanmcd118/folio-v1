@@ -7,11 +7,6 @@
 <p align="center">
   The first iteration of <a href="https://ryanmcdaniel.io" target="_blank">ryanmcdaniel.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>. Forked from the amazing <a href="https://github.com/bchiang7" target="_blank">Brittany Chiang</a> and iterated on by yours truly.
 </p>
-<!-- <p align="center">
-  <a href="https://app.netlify.com/sites/emiliayoffie/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/" alt="Netlify Status" />
-  </a>
-</p> -->
 
 ![demo](./src/images/demo.png)
 

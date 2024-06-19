@@ -9,7 +9,7 @@ tech:
   - CodeMirror
   - Firebase
 
-showInProjects: true
+showInProjects: false
 ---
 
 A landing page & web-based GUI for auto-generating database schema.

@@ -155,37 +155,24 @@ const About = () => {
             <p>
               {' '}
               Hi! My name is Ryan and I enjoy building things that make a difference. My interest in
-              software engineering started back in 2008 when I learned to build custom MySpace
-              themes using HTML & CSS. From there, however, much of my early professional career was
-              in agriculture. Here's a bit of my story:
+              software engineering is lifelong, dating back all the way to my obsessions with
+              Microsoft Paint as a child and MySpace aesthetics as a teen.
             </p>
 
             <p>
-              Throughout college, I worked on organic vegetable farms, where I fell in love with
-              farming. After graduating with a Bachelor of Technology in Plant Science in 2017, I
-              worked at <a href="https://cornell.edu/">Cornell University</a> conducting industrial
-              hemp research. Before long, I went on to start several small businesses and managed
-              industrial hemp and CBD oil production throughout NY &amp; PA.
+              Since graduating from <a href="https://smith.edu/">Smith College</a> several years
+              ago, I've been lucky enough to work with some amazing teams on some incredible
+              products. From managing a team in architecting and building out an essential internal
+              tool, to co-creating an open-source GraphQL migration aid for other developers, to
+              applying my engineering skills to personal passion projects, I've accrued experience
+              in a variety of spaces during that time. In my most recent role at CS Engineering, I
+              also had the chance to teach & mentor hundreds of engineers in my capacity as Lead
+              Instructor.
             </p>
 
-            <p>
-              During this time, I was able to grow my technical, analytical, and leadership skills,
-              and by the time I started to transition to software engineering in 2020, I had nearly
-              six years of management experience under my belt. My career pivot into the tech
-              industry felt very natural - turns out farming and software engineering are a lot
-              alike: they're both about collaborating to solve problems and growing things
-              organically!
+            <p id="my-tech">
+              Recently, I've had the chance to work with a host of interesting techs, including:
             </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the pleasure of building out cool new features in
-              several enterprise codebases &amp; working on a number of open-source products, as
-              well as the privilege of mentoring junior developers, giving public technical
-              workshops and Lunch &amp; Learns (KTs), and contributing to web development courses
-              for aspiring engineers.
-            </p>
-
-            <p id="my-tech">Here are a few technologies I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">

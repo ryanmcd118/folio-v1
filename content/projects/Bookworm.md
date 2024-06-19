@@ -5,7 +5,7 @@ github: 'https://github.com/panda-whale-csny32/bookworm'
 tech:
   - React Testing Library
   - Supertest
-showInProjects: true
+showInProjects: false
 ---
 
 A community social app for tracking & reviewing books.

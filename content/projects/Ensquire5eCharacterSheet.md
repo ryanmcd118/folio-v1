@@ -8,7 +8,7 @@ tech:
   - PostgreSQL
 
 company: 'Open Source'
-showInProjects: true
+showInProjects: false
 ---
 
 A simple character sheet builder for Dungeons & Dragons.

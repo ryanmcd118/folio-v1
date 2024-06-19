@@ -7,7 +7,7 @@ tech:
   - Material UI
   - OAuth 2.0
 
-showInProjects: true
+showInProjects: false
 ---
 
 Learn CS fundamentals through personalized study guides.
