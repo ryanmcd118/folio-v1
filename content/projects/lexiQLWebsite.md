@@ -1,15 +1,13 @@
 ---
-date: '2022-05-22'
-title: 'dangoDB.land'
+date: '2021-08-22'
+title: 'lexiql.io'
 github: 'https://github.com/oslabs-beta/dangoDB_website'
-external: 'https://dangoDB.land/'
+external: 'https://lexiql.io'
 tech:
+  - GraphQL
   - React
-  - SCSS
-  - CodeMirror
-  - Firebase
-
-showInProjects: false
+  - Redux
+showInProjects: true
 ---
 
 A landing page & web-based GUI for auto-generating database schema.
