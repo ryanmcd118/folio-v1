@@ -66,7 +66,11 @@ const Hero = () => {
     <>
       <p>
         I’m a full-stack software engineer passionate about building resilent solutions to difficult
-        problems. Currently, I’m part of the{' '}
+        problems.
+      </p>
+
+      <p>
+        Currently, I’m part of the{' '}
         <a
           href="https://www.linkedin.com/company/cs-engineering-tech-team/mycompany/"
           target="_blank"
