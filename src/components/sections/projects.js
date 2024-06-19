@@ -81,7 +81,7 @@ const StyledProject = styled.li`
     margin-bottom: 35px;
 
     .folder {
-      color: var(--bright-strawberry);
+      color: var(--primary-orange);
       svg {
         width: 40px;
         height: 40px;
@@ -116,7 +116,7 @@ const StyledProject = styled.li`
 
   .project-title {
     margin: 0 0 10px;
-    color: var(--bright-strawberry);
+    color: var(--primary-orange);
     font-size: var(--fz-xxl);
 
     a {

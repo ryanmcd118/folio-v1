@@ -75,7 +75,7 @@ const StyledTabButton = styled.button`
   padding: 0 20px 2px;
   border-left: 2px solid var(--light-strawberry);
   background-color: transparent;
-  color: ${({ isActive }) => (isActive ? 'var(bright-strawberry)' : 'var(--dark-brown)')};
+  color: ${({ isActive }) => (isActive ? 'var(primary-orange)' : 'var(--dark-brown)')};
   font-family: var(--font-mono);
   font-size: var(--fz-xs);
   text-align: left;
@@ -95,7 +95,7 @@ const StyledTabButton = styled.button`
 
   &:hover,
   &:focus {
-    background-color: var(--soft-green-tint);
+    background-color: var(--tertiary-royal-blue-tint);
   }
 `;
 
@@ -107,7 +107,7 @@ const StyledHighlight = styled.div`
   width: 2px;
   height: var(--tab-height);
   border-radius: var(--border-radius);
-  background: var(--bright-strawberry);
+  background: var(--primary-orange);
   transform: translateY(calc(${({ activeTabId }) => activeTabId} * var(--tab-height)));
   transition: transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition-delay: 0.1s;
@@ -152,13 +152,13 @@ const StyledTabPanel = styled.div`
     line-height: 1.3;
 
     .company {
-      color: var(--bright-strawberry);
+      color: var(--primary-orange);
     }
   }
 
   .range {
     margin-bottom: 25px;
-    color: var(--soft-green);
+    color: var(--tertiary-royal-blue);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
   }
