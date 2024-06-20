@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Ryan McDaniel',
     description:
-      'Ryan McDaniel is a software engineer who specializes in building full-stack applications.',
+      'Ryan McDaniel is a senior software engineer who specializes in building full-stack applications.',
     siteUrl: 'https://www.ryanmcdaniel.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
