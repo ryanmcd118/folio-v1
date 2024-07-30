@@ -12,4 +12,3 @@ showInProjects: true
 ---
 
 Dynamic company landing page with 200k+ annual visitors.
-jk
