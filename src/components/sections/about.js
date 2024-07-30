@@ -156,7 +156,8 @@ const About = () => {
               {' '}
               Hi! My name is Ryan and I enjoy building things that make a difference. My interest in
               software engineering is lifelong, dating back all the way to my obsessions with
-              Microsoft Paint as a child and MySpace aesthetics as a teen.
+              figuring out how Microsoft Paint works as a child and perfecting MySpace aesthetics as
+              a teen.
             </p>
 
             <p>

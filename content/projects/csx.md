@@ -1,6 +1,6 @@
 ---
 date: '2024-01-22'
-title: 'CSX.io'
+title: 'CSX'
 external: 'https://csx.codesmith.io/'
 tech:
   - React
