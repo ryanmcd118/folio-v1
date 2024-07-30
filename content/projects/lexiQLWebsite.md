@@ -1,12 +1,12 @@
 ---
-date: '2021-08-22'
+date: '2024-01-18'
 title: 'lexiql.io'
-github: 'https://github.com/oslabs-beta/dangoDB_website'
+github: 'https://github.com/oslabs-beta/lexiql'
 external: 'https://lexiql.io'
 tech:
   - GraphQL
   - React
-  - Redux
+  - React Flow
 showInProjects: true
 ---
 
