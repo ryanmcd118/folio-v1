@@ -1,5 +1,5 @@
 ---
-date: '2024-01-19'
+date: '2024-01-20'
 title: 'Yak Yak Yak'
 github: 'https://github.com/ryanmcd118/Yak-Yak-Yak'
 tech:
