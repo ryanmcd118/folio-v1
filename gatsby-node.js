@@ -10,6 +10,7 @@ const _ = require('lodash');
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);
+  const blogPostTemplate = path.resolve(`src/templates/blogPost.js`);
   const tagTemplate = path.resolve('src/templates/tag.js');
 
   const result = await graphql(`
@@ -19,6 +20,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
       ) {
+        edges {
+          node {
+            frontmatter {
+              slug
+            }
+          }
+        }
+      }
+      blogRemark: allMarkdownRemark(filter: { frontmatter: { type: { eq: "blog" } } }) {
         edges {
           node {
             frontmatter {
@@ -41,9 +51,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return;
   }
 
-  // Create post detail pages
+  // Create post detail pages for "content/posts"
   const posts = result.data.postsRemark.edges;
-
   posts.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.slug,
@@ -54,9 +63,20 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     });
   });
 
-  // Extract tag data from query
+  // Create blog post pages for "content/blog"
+  const blogPosts = result.data.blogRemark.edges;
+  blogPosts.forEach(({ node }) => {
+    createPage({
+      path: `/blog/${node.frontmatter.slug}`,
+      component: blogPostTemplate,
+      context: {
+        slug: node.frontmatter.slug, // Pass the slug value as context for blog posts
+      },
+    });
+  });
+
+  // Extract tag data from query and create tag pages
   const tags = result.data.tagsGroup.group;
-  // Make tag pages
   tags.forEach(tag => {
     createPage({
       path: `/pensieve/tags/${_.kebabCase(tag.fieldValue)}/`,
@@ -68,9 +88,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   });
 };
 
-// https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
+// Webpack config to handle specific third-party modules
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-  // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
   if (stage === 'build-html' || stage === 'develop-html') {
     actions.setWebpackConfig({
       module: {
