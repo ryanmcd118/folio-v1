@@ -3,7 +3,7 @@ date: '2024-06-17'
 title: 'Software Engineer'
 company: 'OS Labs'
 location: 'Remote'
-range: 'February 2021 - August 2021'
+range: '2020 - 2021'
 url: 'https://www.opensourcelabs.io/'
 ---
 
