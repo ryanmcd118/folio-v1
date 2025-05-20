@@ -65,8 +65,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a full-stack software engineer who loves solving complex problems and building tools
-        that make life easier for the people who use them.
+        I’m a full-stack software engineer who loves building tools that make life easier for the
+        people who use them.
       </p>
 
       <p>

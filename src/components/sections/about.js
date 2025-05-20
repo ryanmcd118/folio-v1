@@ -162,10 +162,11 @@ const About = () => {
             <p>
               Since graduating from <a href="https://smith.edu/">Smith College</a>, I've had the
               chance to work with some amazing teams on impactful products. I've led the development
-              of critical internal tools co-created an open-source GraphQL migration aid, and built
-              countless personal projects that let me explore new technologies. Most recently, at
-              Codesmith, I led teams and mentored thousands of engineers as the Lead Instructor of
-              the flagship software engineering immersive program.
+              of critical public platforms and internal tools, co-created an open-source GraphQL
+              migration aid, and built countless personal projects that let me explore new
+              technologies. Most recently, at Codesmith, I led teams and mentored thousands of
+              engineers as the Lead Instructor of the flagship software engineering immersive
+              program.
             </p>
 
             <p id="my-tech">
