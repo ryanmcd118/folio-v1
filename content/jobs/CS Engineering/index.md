@@ -1,9 +1,9 @@
 ---
 date: '2024-06-18'
-title: 'Senior Software Engineer & Team Lead'
-company: 'CS Engineering'
+title: 'Senior Software Engineer & Lead Engineering Instructor'
+company: 'Codesmith'
 location: 'Remote'
-range: 'May 2021 - Present'
+range: '2021 - 2024'
 url: 'https://www.codesmith.io/'
 ---
 
@@ -13,3 +13,4 @@ url: 'https://www.codesmith.io/'
 - Contributed to large-scale TypeScript migration aimed at improving application maintainability and scalability, ultimately resulting in a 30% decrease in bug reports and a cleaner code architecture.
 - Optimized central Node/Express logic by eliminating unnecessary queries and streamlining middleware, leading to increased platform reliability, targeted UX improvements, and expanded functionality in a pivotal internal tool.
 - Developed a GitHub API integration to enable granular permission management across an array of company repositories, reducing administrative overhead and enhancing security measures for both technical and non-technical team members.
+- Delivered technical training to thousands of junior engineers on core full-stack technologies and fundamental computer science concepts, strengthening proprietary curriculum and orchestrating large-scale technical growth.

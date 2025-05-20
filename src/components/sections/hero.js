@@ -65,26 +65,20 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a full-stack software engineer passionate about building resilient solutions to
-        difficult problems.
+        I’m a full-stack software engineer who loves solving complex problems and building tools
+        that make life easier for the people who use them.
       </p>
 
       <p>
-        Currently, I’m part of the{' '}
-        <a
-          href="https://www.linkedin.com/company/cs-engineering-tech-team/mycompany/"
-          target="_blank"
-          rel="noreferrer">
-          CS Engineering
-        </a>{' '}
-        team at{' '}
+        For the past three years, I worked at{' '}
         <a href="https://codesmith.io/" target="_blank" rel="noreferrer">
           {' '}
           Codesmith{' '}
         </a>
-        , where I lead a team of engineers in building & maintaining a variety of products and
-        tools. I also lead a variety of courses and workshops covering modern techs and engineering
-        best practices.
+        , where I led engineering teams, built internal tools and platform features, and taught
+        workshops on modern JavaScript, system design, and engineering best practices. Whether I'm
+        deep in the stack or supporting a team, I care most about building systems that last and
+        helping others grow along the way.
       </p>
     </>
   );

@@ -154,25 +154,22 @@ const About = () => {
           <div>
             <p>
               {' '}
-              Hi! My name is Ryan and I enjoy building things that make a difference. My interest in
-              software engineering is lifelong, dating back all the way to my obsessions with
-              figuring out how Microsoft Paint works as a child and perfecting MySpace aesthetics as
-              a teen.
+              Hi! I'm Ryan, a full-stack software engineer who loves building things that make a
+              difference. My interest in technology started young, from trying to reverse-engineer
+              Microsoft Paint as a kid to perfecting MySpace layouts as a teenager.
             </p>
 
             <p>
-              Since graduating from <a href="https://smith.edu/">Smith College</a> several years
-              ago, I've been lucky enough to work with some amazing teams on some incredible
-              products. From managing a team in architecting and building out an essential internal
-              tool, to co-creating an open-source GraphQL migration aid for other developers, to
-              applying my engineering skills to personal passion projects, I've accrued experience
-              in a variety of spaces during that time. In my most recent role at CS Engineering, I
-              also had the chance to teach & mentor hundreds of engineers in my capacity as Lead
-              Instructor.
+              Since graduating from <a href="https://smith.edu/">Smith College</a>, I've had the
+              chance to work with some amazing teams on impactful products. I've led the development
+              of critical internal tools co-created an open-source GraphQL migration aid, and built
+              countless personal projects that let me explore new technologies. Most recently, at
+              Codesmith, I led teams and mentored thousands of engineers as the Lead Instructor of
+              the flagship software engineering immersive program.
             </p>
 
             <p id="my-tech">
-              Recently, I've had the chance to work with a host of interesting techs, including:
+              These days, I've been working with a wide range of interesting techs, including:
             </p>
           </div>
 
